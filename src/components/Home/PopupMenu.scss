@@ -54,7 +54,7 @@ h1 {
 
 section {
     position: absolute;
-    bottom: -80px; /* Menggerakkan elemen 10px lebih ke bawah */
+    bottom: -60px; /* Menggerakkan elemen 10px lebih ke bawah */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -207,6 +207,76 @@ body.prevent-background-scroll {
   overflow-x: hidden;
   padding: 30px 50px;
 }
+
+.popup-body .slider-container {
+    overflow: hidden;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .popup-body .swiper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .popup-body .swiper-wrapper {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+  
+  .popup-body .swiper-slide {
+    flex: 0 0 auto;
+    height: 200px;
+    width: calc(100% / 1); /* For 1 slide per view by default */
+    box-sizing: border-box;
+  }
+
+//   @media screen and (min-width: 680px) {
+//     .popup-body .swiper-slide {
+//       width: calc(100% / 2); /* 2 slides per view at 680px and above */
+//     }
+//   }
+  
+//   @media screen and (min-width: 1100px) {
+//     .popup-body .swiper-slide {
+//       width: calc(100% / 3); /* 3 slides per view at 1100px and above */
+//     }
+//   }
+  
+//   @media screen and (min-width: 1600px) {
+//     .popup-body .swiper-slide {
+//       width: calc(100% / 4); /* 4 slides per view at 1600px and above */
+//     }
+//   }
+  
+  .popup-body .swiper-slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .popup-body .prev,
+  .popup-body .next {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+    user-select: none;
+  }
+  
+  .popup-body .prev {
+    position: absolute;
+    left: 10px;
+  }
+  
+  .popup-body .next {
+    position: absolute;
+    right: 10px;
+  }
+  
 
 .popup.maximized .popup-body {
   height: 100vh;

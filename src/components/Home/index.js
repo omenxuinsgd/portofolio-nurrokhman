@@ -19,9 +19,9 @@ const Home = () => {
     return () => clearTimeout(timer);
   }, []);
 
-  const nameArray = 'udip'.split('');
-  const jobArray = 'Blockchain Developer'.split('');
-  const interestArray = 'Ethical Hacker'.split('');
+  const nameArray = ' Nur Rokhman'.split('');
+  const jobArray = 'IoT Engineer &'.split('');
+  const interestArray = 'Robotic Enthusiast'.split('');
 
   useEffect(() => {
     const loadFontAwesome = async () => {
@@ -57,9 +57,11 @@ const Home = () => {
             <span className={letterClass}>H</span>
             <span className={`${letterClass} _12`}>i,</span>
             <br />
-            <span className={`${letterClass} _13`}>I</span>
-            <span className={`${letterClass} _14`}>'m</span>
-            <img src={LogoTitle} alt="Sudip Banerjee" />
+            <span className={`${letterClass} _13`}>S</span>
+            <span className={`${letterClass} _14`}>a</span>
+            <span className={`${letterClass} _13`}>y</span>
+            <span className={`${letterClass} _14`}>a</span>
+            {/* <img src={LogoTitle} alt="Sudip Banerjee" /> */}
             <AnimatedLetters
               letterClass={letterClass}
               strArray={nameArray}
@@ -79,7 +81,7 @@ const Home = () => {
             />
           </h1>
           <h2>
-            Full Stack Blockchain Developer / Ethical Hacker / AI/ML Developer
+            Full Stack IoT Developer / Web Developer / AIoT Enthusiast
           </h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME

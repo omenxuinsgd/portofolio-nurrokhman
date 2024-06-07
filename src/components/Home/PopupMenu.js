@@ -11,6 +11,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import Swiper from 'swiper';
 import './PopupMenu.scss';
+import imageUmeng from '../../assets/images/umeng-present_upscaled2.png'
 
 const PopupMenu = () => {
   useEffect(() => {
@@ -171,12 +172,12 @@ const PopupMenu = () => {
           <div className="popup-body about-container">
             <div className="img-frame">
               <img
-                src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/1f842b2d-1245-497e-9a9e-b1cdb0da1eec"
-                alt=""
+                src={imageUmeng}
+                alt="profile umeng"
               />
             </div>
             <div className="hero-content">
-              <h1>Ruth Thomson</h1>
+              <h1>Nur Rokhman</h1>
               <p>
                 I'm a front-end developer. I have dedicated myself to creating
                 visually appealing and user-friendly websites. I'm always open to
@@ -194,8 +195,96 @@ const PopupMenu = () => {
       </div>
 
       <div className="popup" id="testimonial">
-        {/* Add content for testimonial popup */}
+        <div className="popup-container">
+          <div className="popup-header">
+            <div className="button-container">
+              <button className="close-btn circle-btn red">
+                <FontAwesomeIcon icon={faXmark} />
+              </button>
+              <button className="close-btn circle-btn yellow">
+                <FontAwesomeIcon icon={faWindowMinimize} />
+              </button>
+              <button className="maximize-btn circle-btn green">
+                <FontAwesomeIcon icon={faUpRightAndDownLeftFromCenter} />
+              </button>
+            </div>
+          </div>
+          <div className="popup-body testimonial-container">
+            <h1>Pendidikan</h1>
+            <div className="slider-container">
+              <div className="swiper">
+                <div className="swiper-wrapper">
+                  <div className="swiper-slide">
+                    <div className="user-info">
+                      <img
+                        src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/c3e8a2a1-ab19-4fae-be0c-92bb3b6f3122"
+                        alt="" />
+                      <h2 style={{color: 'orange', fontWeight: 'bold'}}>UIN Sunan Gunung Djati Bandung<br/>
+                      <span style={{color: 'white'}}>
+                      2019 - 2023
+                      </span></h2>
+                    </div>
+                    <p>
+                      Jurusan: S1 - Teknik Elektro<br/>
+                      Konsentrasi: Teknik Kendali & Komputer<br/>
+                      IPK: 3.72 / 4.00<br/>
+                      Penerima Beasiswa: Kip-Kuliah<br/>
+                    </p>
+                  </div>
+                  <div className="swiper-slide">
+                    <div className="user-info">
+                      <img
+                        src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/f54a0d84-8f52-4fa6-886f-0acb5a724130"
+                        alt="" />
+                      <h2 style={{color: 'orange', fontWeight: 'bold'}}>SMA Negeri 1 Ciwaringin<br/>
+                      <span style={{color: 'white'}}>
+                      2016 - 2019
+                      </span></h2>
+                    </div>
+                    <p>
+                      Konsentrasi: Matematika & IPA (MIPA)
+                      Ekstrakulikuler: Kelompok Ilmiah Remaja (KIR)
+                    </p>
+                  </div>
+                  <div className="swiper-slide">
+                    <div className="user-info">
+                      <img
+                        src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/30f2184c-df17-4fd8-aabf-2db7cdad85e4"
+                        alt="" />
+                      <h2 style={{color: 'orange', fontWeight: 'bold'}}>SMP Negeri 2 Ciwaringin<br/>
+                      <span style={{color: 'white'}}>
+                      2012 - 2016
+                      </span></h2>
+                    </div>
+                    <p>
+                      Ruth's ability to transform ideas into visually appealing
+                      and user-friendly websites is truly impressive.
+                    </p>
+                  </div>
+                  <div className="swiper-slide">
+                    <div className="user-info">
+                      <img
+                        src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/30f2184c-df17-4fd8-aabf-2db7cdad85e4"
+                        alt="" />
+                      <h2 style={{color: 'orange', fontWeight: 'bold'}}>SD Negeri 1 Gintung Tengah<br/>
+                      <span style={{color: 'white'}}>
+                      2006 - 2012
+                      </span></h2>
+                    </div>
+                    <p>
+                      Ruth's ability to transform ideas into visually appealing
+                      and user-friendly websites is truly impressive.
+                    </p>
+                  </div>
+                </div>
+                <div className="prev">Prev</div>
+                <div className="next">Next</div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
+
 
       <div className="popup" id="contact">
         {/* Add content for contact popup */}
