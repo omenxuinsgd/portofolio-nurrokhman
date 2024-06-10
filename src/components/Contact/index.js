@@ -118,18 +118,18 @@ const Contact = () => {
           </div>
         </div>
         <div className="info-map">
-          Sudip Banerjee
+          Nur Rokhman
           <br />
-          Kolkata, <br />
-          West Bengal, <br />
-          India
+          Cibiru, <br />
+          Bandung, <br />
+          Jawa Barat, Indonesia
           <br />
         </div>
         <div className="map-wrap">
-          <MapContainer center={[22.56263, 88.36304]} zoom={13}>
+          <MapContainer center={[-6.916644, 107.719739]} zoom={13}>
             <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-            <Marker position={[22.56263, 88.36304]}>
-              <Popup>Sudip lives here, come over for a cup of coffee :)</Popup>
+            <Marker position={[-6.916644, 107.719739]}>
+              <Popup>Nur Rokhman tinggal disini :)</Popup>
             </Marker>
           </MapContainer>
         </div>
