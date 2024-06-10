@@ -8,7 +8,7 @@ import './index.css'
 // TODO:  Add mouse-trail, work page
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter basename='/labf'>
+    <BrowserRouter>
       <App />
     </BrowserRouter>
     ,
