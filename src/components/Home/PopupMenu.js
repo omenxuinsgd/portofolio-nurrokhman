@@ -194,7 +194,7 @@ const PopupMenu = () => {
                 using new skill sets and I believe in the power of collaboration,
                 working closely with designers and back-end developers to deliver
                 cohesive and effective solutions. */}
-                Saya Mahasiswa S1 Tahun Terakhir Universitas Islam Negeri Sunan Gunung Djati jurusan Teknik Elektro (IPK: 3.77/4.00). Tertarik dengan Internet Of Things, terutama di Mikrokontroller dan Hardware Smart Device (Machine-to-machine/M2M). Memiliki pengalaman 4 bulan di PT Kreasi Rekayasa Indonesia, sebagai IoT Hardware Engineer Intern. Familiar dengan teknologi IoT seperti Raspberry Pi, Arduino, ESP32/8266, Python, Javascript, dan MongoDB. Saya mencari pengembangan lebih lanjut di Perangkat Cerdas Perangkat Keras untuk menjadi IoT Engineer.
+                Saya Alumni Universitas Islam Negeri Sunan Gunung Djati jurusan Teknik Elektro (IPK: 3.72/4.00). Tertarik dengan Internet Of Things, terutama di Mikrokontroller dan Hardware Smart Device (Machine-to-machine/M2M). Memiliki pengalaman lebih dari 1 tahun Bekerja di PT Kreasi Rekayasa Indonesia, sebagai IoT Engineer. Familiar dengan teknologi IoT seperti Raspberry Pi, Arduino, ESP32/8266, Python, Javascript, dan MongoDB. Saya mencari pengembangan lebih lanjut di Embedded System untuk proyek yang lebih menantang.
               </p>
             </div>
           </div>
