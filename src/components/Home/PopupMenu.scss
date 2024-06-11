@@ -65,6 +65,19 @@ section {
     box-sizing: border-box; /* Pastikan padding tidak melebihi ukuran box */
 }
 
+.user-info {
+    position: absolute;
+    top: 110px;
+
+    h2 {
+        position: absolute;
+        top: -80px;
+        width: 200px;
+        left: 60px;
+
+    }
+}
+
 /* ------------ */
 /* ICON STYLES */
 

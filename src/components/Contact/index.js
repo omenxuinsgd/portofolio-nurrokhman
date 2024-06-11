@@ -75,10 +75,8 @@ const Contact = () => {
               idx={15}
             />
           </h1>
-          <p>
-            I am interested in opportunities - especially ambitious or large
-            projects. However, if you have other request or question, don't
-            hesitate to contact me using below form either.
+          <p >
+          Saya tertarik pada peluang – terutama yang berskala projek. Namun, jika Anda memiliki permintaan atau pertanyaan lain, jangan ragu untuk menghubungi saya menggunakan formulir di bawah ini.
           </p>
           <div className="contact-form">
             <form ref={form} onSubmit={sendEmail}>
